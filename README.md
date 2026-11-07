@@ -3,11 +3,10 @@
 AienOS is the operating system I am building: my own kernel, my own language and my own GPU
 path, on hardware I own.
 
-To get it on a DGX Spark, install **Sovereign Intelligence, built on AienOS**:
-
-```sh
-curl -fsSL https://aienos.com/install.sh | sh
-```
+To get it on a DGX Spark, install **Sovereign Intelligence, built on AienOS**: clone
+[aien-dev/sovereign-intelligence](https://github.com/aien-dev/sovereign-intelligence) at the release tag its [Install](https://github.com/aien-dev/sovereign-intelligence#install)
+section names and run `sh installer/install.sh` from that checkout. Nothing is fetched from a
+website; there is no `curl | sh` installer.
 
 This repository describes AienOS and links its parts. It publishes no releases.
 
